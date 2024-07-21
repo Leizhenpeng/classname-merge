@@ -6,7 +6,25 @@
 [![JSDocs][jsdocs-src]][jsdocs-href]
 [![License][license-src]][license-href]
 
-`cn` function - merge class names using clsx and tailwind-merge
+Just `cn` function ! Merge class names using clsx and tailwind-merge
+
+## Qucik start
+
+```bash
+pnpm add classname-merge
+```
+
+```tsx
+import { cn } from 'classname-merge'
+
+const isRed = true
+
+function app() {
+  return (
+    <div className={cn('bg-blue-500', isRed && 'text-red-500')} />
+  )
+}
+```
 
 ## License
 
