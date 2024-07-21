@@ -1,7 +1,7 @@
 {
   "name": "classname-merge",
   "type": "module",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "packageManager": "pnpm@9.1.1",
   "description": "`cn` function - merge class names using clsx and tailwind-merge",
   "author": "leizhenpeng <laolei@forkway.cn>",
@@ -12,8 +12,16 @@
     "type": "git",
     "url": "git+https://github.com/leizhenpeng/classname-merge.git"
   },
-  "bugs": "https://github.com/leizhenpeng/classname-merge/issues",
-  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/leizhenpeng/classname-merge/issues"
+  },
+  "keywords": [
+    "classnames",
+    "merge",
+    "clsx",
+    "tailwind-merge",
+    "cn"
+  ],
   "sideEffects": false,
   "exports": {
     ".": {
