@@ -55,6 +55,10 @@
     "typecheck": "tsc --noEmit",
     "prepare": "simple-git-hooks"
   },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.4.0"
+  },
   "devDependencies": {
     "@antfu/eslint-config": "^2.18.1",
     "@antfu/ni": "^0.21.12",
