@@ -1,7 +1,7 @@
 {
   "name": "classname-merge",
   "type": "module",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "packageManager": "pnpm@9.1.1",
   "description": "`cn` function - merge class names using clsx and tailwind-merge",
   "author": "leizhenpeng <laolei@forkway.cn>",
